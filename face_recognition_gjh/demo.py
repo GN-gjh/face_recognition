@@ -46,7 +46,7 @@ def return_euclidean_distance(feature_1, feature_2):
     return dist
 
 
-cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)  #更改API设置
+cap = cv2.VideoCapture(0)  #打开摄像头
 flag = cap.isOpened()
 get_face_database()
 
