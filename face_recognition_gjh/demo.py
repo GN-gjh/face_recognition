@@ -120,3 +120,6 @@ while (flag):
                     print("  人脸结果为: Unknown person")
 
     cv2.imshow("Capture_Paizhao", frame)
+    
+cap.release()           # 关闭摄像头
+cv2.destroyAllWindows() # 关闭所有窗口
