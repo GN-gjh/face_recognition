@@ -1,5 +1,4 @@
-# face_recognition
-bigwork in cqupt university 
+# 基于Dlib和OpenCV的人脸识别 
 
 ### 主要文件
 demo.py 是人脸检测基础功能的展示，可以在控制台输出识别出的人脸姓名
