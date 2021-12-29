@@ -16,3 +16,6 @@ main.py实现人脸识别的全部功能
 2.shape_predictor_68_face_landmarks.dat 面部识别模型
 
 需要自行下载，下载地址: http://dlib.net/files/
+
+## 安装依赖库
+pip install -r requirements.txt
