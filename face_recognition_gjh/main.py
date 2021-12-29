@@ -166,6 +166,9 @@ class Face_detect:
     def run(self):
         cap = cv2.VideoCapture(0)     # 打开摄像头
         self.process(cap)                           # 进行人脸检测
+        
+        cap.release()           # 关闭摄像头
+        cv2.destroyAllWindows() # 关闭所有窗口
 
 
 def main():
