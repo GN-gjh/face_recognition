@@ -9,7 +9,7 @@ feature_extract.py 功能是提取出128维人脸特征矢量，并保存为csv�
 main.py实现人脸识别的全部功能
 
 
-## data\data_dlib路径下的文件
+## data/data_dlib路径下的文件
 
 1.dlib_face_recognition_resnet_model_v1.dat 面部关键点模型 
 
